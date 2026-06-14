@@ -158,12 +158,12 @@ async function submitAbsen() {
     now.toLocaleString("en-US", { timeZone: "Asia/Jakarta" }),
   );
 
-  const day = jakartaTime.getDay(); // 1 = Senin
+  const day = jakartaTime.getDay(); 
   const hour = jakartaTime.getHours();
 
-  // hanya Senin
-  if (day !== 1) {
-    alert("Absen hanya bisa dilakukan hari Senin");
+  // hanya Jumat
+  if (day !== 5) {
+    alert("Absen hanya bisa dilakukan hari Jumat");
     return;
   }
 
