@@ -161,9 +161,9 @@ async function submitAbsen() {
   const day = jakartaTime.getDay(); 
   const hour = jakartaTime.getHours();
 
-  // hanya Jumat
-  if (day !== 5) {
-    alert("Absen hanya bisa dilakukan hari Jumat");
+  // hanya Senin
+  if (day !== 1) {
+    alert("Absen hanya bisa dilakukan hari Senin");
     return;
   }
 
