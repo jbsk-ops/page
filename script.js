@@ -163,7 +163,7 @@ async function submitAbsen() {
   const minute = jakartaTime.getMinutes();
 
   // hanya Senin
-  if (day !== 3) {
+  if (day !== 1) {
     alert("Absen hanya bisa dilakukan hari Senin");
     return;
   }
